@@ -2,6 +2,8 @@
 
 I'm having trouble resolving dependencies with a version constraint "~> 0".
 
+See [bundler #3001](https://github.com/bundler/bundler/issues/3001).
+
 Gem `a` depends on `rack ~> 0`, which should match any rack version.
 
 Gem `b` depends on `rack 1.4.5`.
